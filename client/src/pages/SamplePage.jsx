@@ -1,12 +1,15 @@
 import React from "react";
 
 import Navbar from "../components/Navbar";
+import PageLayout from "../layouts/PageLayout";
 
 const SamplePage = () => {
 	return (
 		<>
 			<Navbar />
-			<div>Sample Page</div>
+			<PageLayout>
+				<div>Sample Page</div>
+			</PageLayout>
 		</>
 	);
 };

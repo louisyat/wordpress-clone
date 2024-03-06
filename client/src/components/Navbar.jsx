@@ -15,9 +15,6 @@ const Navbar = () => {
 							<div>
 								<a href="/samplepage">Sample Page</a>
 							</div>
-							<div>
-								<a href="/login">Login</a>
-							</div>
 						</div>
 					</div>
 				</div>
