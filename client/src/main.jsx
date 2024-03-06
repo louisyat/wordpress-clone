@@ -7,11 +7,16 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Post from "./pages/Post";
+import SamplePage from "./pages/SamplePage";
 
 const router = createBrowserRouter([
 	{
 		path: "/",
 		element: <Home />,
+	},
+	{
+		path: "/samplepage",
+		element: <SamplePage />,
 	},
 	{
 		path: "/login",
